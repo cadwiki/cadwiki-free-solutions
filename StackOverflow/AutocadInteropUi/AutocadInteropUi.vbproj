@@ -81,11 +81,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="run-a-script-within-autocad-from-vbnet.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="run-a-script-within-autocad-from-vbnet.Designer.vb">
+      <DependentUpon>run-a-script-within-autocad-from-vbnet.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InteropDriver.vb" />

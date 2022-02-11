@@ -6,7 +6,7 @@ Public Class Form1
     Public driver As New InteropDriver()
 
     Private Sub ButtonButtonLaunchAutocad_Click(sender As Object, e As EventArgs) Handles ButtonLaunchAutocad.Click
-        Dim acadLocation As String = "C:\Program Files\Autodesk\AutoCAD 2022\acad.exe"
+        Dim acadLocation As String = "E:\Program Files\Autodesk\AutoCAD 2022\acad.exe"
         Dim processInfo As ProcessStartInfo = New ProcessStartInfo With {
             .FileName = acadLocation
         }
